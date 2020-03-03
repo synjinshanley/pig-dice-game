@@ -1,0 +1,82 @@
+@import "./foundation.min.css";
+
+body{
+    text-align: center;
+    background-color: olivedrab;
+}
+
+.dice{
+    border: 2px solid black;
+    margin-right: 41%;
+    margin-left: 41%;
+    margin-bottom: 2%;
+    padding-top: 4%;
+    background-color: blanchedalmond;
+}
+
+#player{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#player-1{
+    float: left;
+    background-color: lavender;
+    border: 5px solid olive;
+    padding: 2px;
+}
+
+#player-2 {
+    float: right;
+    background-color: lavender;
+    border: 5px solid olive;
+    padding: 2px;
+}
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+
+    .dice{
+        margin-right: 45%;
+        margin-left: 45%;
+        margin-bottom: 2%;
+        padding-top: 2%;
+    }
+
+    #player{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #player-1{
+        padding: 10px;
+    }
+
+    #player-2{
+        padding: 10px;
+    }
+    
+}
+
+@media only screen and (min-width: 769px) {
+
+    .dice{
+        margin-right: 47%;
+        margin-left: 47%;
+        margin-bottom: 2%;
+        padding-top: 1%;
+    }
+
+    #player{
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    #player-2{
+        padding: 20px;
+    }
+
+    #player-1{
+        padding: 20px;
+    }
+
+}
