@@ -7,14 +7,14 @@
 
 import EventHandler from './EventHandler.js';
 
-export default class Main {
+export default class main {
 
     constructor(){
-        new HandleEvent();
+        new EventHandler;
     }
 
 }
 
 window.addEventListener('load', () => {
-    new Main();
+    new main();
 });
